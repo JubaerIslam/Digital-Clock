@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+#creator {
+    position: absolute;
+}
+.container {
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color : #060a1f;
+    color: #fff;
+}
+
+#clock #time{
+   display: flex;
+   justify-content: center;
+}
+#clock h1 {
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: 6px;
+	margin-bottom: 30px;
+}
+#clock #time div {
+	width: 100px;
+	height: 110px;
+    background-color: #2196f3;
+	margin: 0 5px;
+	border-radius: 2px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+#clock #time div:nth-child(2){
+    background-color: #2fcacc;
+}
+#clock #time div:nth-child(3){
+    background-color: #ff006a;
+}
+#clock #time span {
+	font-size: 50px;
+	display: flex;
+	height: 75%;
+	width: 100%;
+	box-shadow: 0 0 0 1px rgb(0 0 0 / 20%);
+	align-items: center;
+	justify-content: center;
+}
+#clock #time  p{
+    height: 25%;
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#clock #time div:last-child {
+	width: 35px;
+	height: 35px;
+	background-color: #2fcacc;
+	margin: 0 5px;
+	border-radius: 2px;
+}
+#clock #time div:last-child span {
+	font-size: 25px;
+	display: block;
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+
+
+
+
+#creator {
+	position: absolute;
+	right: 30px;
+	bottom: 30px;
+	font-size: 18px;
+	color: #fff;
+}
+#creator span {
+	color: #ff81b8;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-left: 20px;
+}
